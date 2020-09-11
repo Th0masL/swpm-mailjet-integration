@@ -66,25 +66,27 @@ This document will help you understand what this addon can do, and will help you
 
     ![05-swpm-mailjet-integration.png](https://github.com/Th0masL/swpm-mailjet-integration/blob/master/images/05-swpm-mailjet-integration.png)
 
-9) Enable the **Mailjet Integration** option and chose the **Susbscription Mode**
+9) Enable the **Mailjet Integration** option and configure the options
 
     ![06-swpm-mailjet-integration.png](https://github.com/Th0masL/swpm-mailjet-integration/blob/master/images/06-swpm-mailjet-integration.png)
-
-    ![07-swpm-mailjet-integration.png](https://github.com/Th0masL/swpm-mailjet-integration/blob/master/images/07-swpm-mailjet-integration.png)
 
     Note: For verification purposes, we suggest you to first **Show the Newsletter checkbox** on the SWPM forms. Once everything is working fine, you can then decide to change the settings to hide the **Newsletter checkbox**.
 
 10) Verify that the **Newsletter** checkbox is visible on the **SWPM Registration** and **SWPM Profil Edit** page
 
+    ![07-swpm-mailjet-integration.png](https://github.com/Th0masL/swpm-mailjet-integration/blob/master/images/07-swpm-mailjet-integration.png)
+
     ![08-swpm-mailjet-integration.png](https://github.com/Th0masL/swpm-mailjet-integration/blob/master/images/08-swpm-mailjet-integration.png)
 
-    ![09swpm-mailjet-integration.png](https://github.com/Th0masL/swpm-mailjet-integration/blob/master/images/09-swpm-mailjet-integration.png)
+    ![09-swpm-mailjet-integration.png](https://github.com/Th0masL/swpm-mailjet-integration/blob/master/images/09-swpm-mailjet-integration.png)
 
-    ![10-swpm-mailjet-integration.png](https://github.com/Th0masL/swpm-mailjet-integration/blob/master/images/10-swpm-mailjet-integration.png)
+11) Verify that the Contacts / Email addresses are added to the Mailjet Contact List, on the Mailjet website
 
-11) Verify that the Contacts / Email addresses are added to the Mailjet Contact List, on Mailjet's website
+    ![10-mailjet-contact-list.png](https://github.com/Th0masL/swpm-mailjet-integration/blob/master/images/10-mailjet-contact-list.png)
 
-    ![11-mailjet-contact-list.png](https://github.com/Th0masL/swpm-mailjet-integration/blob/master/images/11-mailjet-contact-list.png)
+12) If you are using custom extra fields (WP/WP Meta/ SWPM), then you will have to declare the fields on the Contact List Properties page, on the Mailjet website
+
+    ![11-mailjet-contact-list-properties.png](https://github.com/Th0masL/swpm-mailjet-integration/blob/master/images/11-mailjet-contact-list-properties.png)
 
 ## Troubleshooting / Problems
 
@@ -106,7 +108,7 @@ You will find below some basic help about the most commons problems.
   - Verify that the **official Mailjet plugin** is installed, enabled and configured correctly
   - Log into your Mailjet account and make sure that you don't see any error messages
   - Make sure that the **Contact List** that you have configured in WordPress is indeed visible on the Mailjet website
-  - On the **Mailjet website**, verify the properties of the **Contact List** and make sure that the property **email** is present (should be here by default, don't remove it)
+  - On the **Mailjet website** > **Contact List** > **Properties** page, make sure that all the extra properties are defined correctly
 
 ### Note regarding email delivery issues :
 

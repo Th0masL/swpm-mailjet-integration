@@ -12,18 +12,39 @@
                 	<?php
                 }
                 ?>
-                <p class="description"><?php _e("Enabling this option will add an extra field on the Registration and on the Profile Edit forms.",SWPM_MAILJET_INTEGRATION_PLUGIN_NAME); ?><br><?php _e("This extra field will allow the",SWPM_MAILJET_INTEGRATION_PLUGIN_NAME); ?> <a href='https://wordpress.org/plugins/mailjet-for-wordpress/'><?php _e("Official Mailjet plugin",SWPM_MAILJET_INTEGRATION_PLUGIN_NAME); ?></a> <?php _e("to automatically subscribe/update the newsletter preferences of the SWPM user on the Mailjet Website.",SWPM_MAILJET_INTEGRATION_PLUGIN_NAME); ?><br><?php _e("Enable this option to be able to edit the other settings below.",SWPM_MAILJET_INTEGRATION_PLUGIN_NAME); ?></p>
+                <p class="description"><?php _e("Enabling this option will add an extra field on the Registration and on the Profile Edit forms.",SWPM_MAILJET_INTEGRATION_PLUGIN_NAME); ?><br><?php _e("This extra field will allow the",SWPM_MAILJET_INTEGRATION_PLUGIN_NAME); ?> <a href='https://wordpress.org/plugins/mailjet-for-wordpress/'><?php _e("Official Mailjet plugin",SWPM_MAILJET_INTEGRATION_PLUGIN_NAME); ?></a> <?php _e("to automatically subscribe/update the newsletter preferences of the SWPM user on the Mailjet Website.",SWPM_MAILJET_INTEGRATION_PLUGIN_NAME); ?><br><?php _e("Enable this option to be able to use the other options below.",SWPM_MAILJET_INTEGRATION_PLUGIN_NAME); ?></p>
             </td>
         </tr>
         <tr>
             <th scope="row"><?php _e("Subscription Mode",SWPM_MAILJET_INTEGRATION_PLUGIN_NAME); ?></th>
             <td>
-                <select name="swpm-addon-mailjet-integration-subscription-mode" <?php echo $swpm_mji_options_edit_status ?>>
+                <select name="swpm-addon-mailjet-integration-subscription-mode">
                     <option value="hidden"<?php echo $swpm_mji_subscription_mode === 'hidden' ? ' selected' : ''; ?>><?php _e("Invisible and Checked (Force Subscription)",SWPM_MAILJET_INTEGRATION_PLUGIN_NAME); ?></option>
                     <option value="checked"<?php echo $swpm_mji_subscription_mode === 'checked' ? ' selected' : ''; ?>><?php _e("Visible and Checked",SWPM_MAILJET_INTEGRATION_PLUGIN_NAME); ?></option>
                     <option value=""<?php echo $swpm_mji_subscription_mode === '' ? ' selected' : ''; ?>><?php _e("Visible but Not Checked",SWPM_MAILJET_INTEGRATION_PLUGIN_NAME); ?></option>
                 </select>
                 <p class="description"><?php _e("Select the Subscription Mode on the Registration Form. Default is 'Visible but Not Checked', meaning that the user will have to check the Newsletter checkbox on the Registration Form if he wants to subscribe.",SWPM_MAILJET_INTEGRATION_PLUGIN_NAME); ?></p>
+            </td>
+        </tr>
+        <tr>
+            <th scope="row"><?php _e("WP User fields to add",SWPM_MAILJET_INTEGRATION_PLUGIN_NAME); ?></th>
+            <td>
+                <input type="text" name="swpm-addon-mailjet-integration-wp-fields" value="<?php echo $swpm_mji_wp_fields; ?>" size="50"/>
+                <p class="description"><?php _e("Add additionnal WP User fields/values to the Mailjet Contact List. Read the usage documentation to understand how to use this option.",SWPM_MAILJET_INTEGRATION_PLUGIN_NAME); ?></p>
+            </td>
+        </tr>
+        <tr>
+            <th scope="row"><?php _e("WP Meta User fields to add",SWPM_MAILJET_INTEGRATION_PLUGIN_NAME); ?></th>
+            <td>
+                <input type="text" name="swpm-addon-mailjet-integration-wpmeta-fields" value="<?php echo $swpm_mji_wpmeta_fields; ?>" size="50"/>
+                <p class="description"><?php _e("Add additionnal WP Meta User fields/values to the Mailjet Contact List. Read the usage documentation to understand how to use this option.",SWPM_MAILJET_INTEGRATION_PLUGIN_NAME); ?></p>
+            </td>
+        </tr>
+        <tr>
+            <th scope="row"><?php _e("SWPM User fields to add",SWPM_MAILJET_INTEGRATION_PLUGIN_NAME); ?></th>
+            <td>
+                <input type="text" name="swpm-addon-mailjet-integration-swpm-fields" value="<?php echo $swpm_mji_swpm_fields; ?>" size="50"/>
+                <p class="description"><?php _e("Add additionnal SWPM User fields/values to the Mailjet Contact List. Read the usage documentation to understand how to use this option.",SWPM_MAILJET_INTEGRATION_PLUGIN_NAME); ?></p>
             </td>
         </tr>
     </tbody>
