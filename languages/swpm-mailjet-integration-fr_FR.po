@@ -1,0 +1,69 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SWPM Mailjet Integration\n"
+"POT-Creation-Date: 2020-09-04 20:00+0300\n"
+"PO-Revision-Date: 2020-09-04 20:00+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.1\n"
+"X-Domain: swpm-mailjet-integration\n"
+
+msgid "Newsletter"
+msgstr ""
+
+msgid "I want to subscribe to the Newsletter"
+msgstr "Je veux m'abonner à la Newsletter"
+
+msgid "Mailjet Integration Addon Settings"
+msgstr "Réglages de l'extension Mailjet Integration"
+
+msgid "Read the"
+msgstr "Lisez le"
+
+msgid "usage documentation"
+msgstr "manuel d'utilisation"
+
+msgid "to learn how to use the Mailjet Integration addon."
+msgstr "pour savoir comment utiliser l'extension Mailjet Integration."
+
+msgid "Enable Mailjet Integration"
+msgstr "Activer Mailjet Integration"
+
+msgid "This add-on requires the"
+msgstr "Cette extension requiert que le"
+
+msgid "Official Mailjet plugin"
+msgstr "plugin Officiel Mailjet"
+
+msgid "to be installed and active."
+msgstr "soit installé et activé."
+
+msgid "Enabling this option will add an extra field on the Registration and on the Profile Edit forms."
+msgstr "Activez cette option pour ajouter un champ supplémentaire sur le formulaire d'Enregistrement et sur le formulaire d'Édition du Profil."
+
+msgid "This extra field will allow the"
+msgstr "Ce champ supplémentaire permettra au"
+
+msgid "to automatically subscribe/update the newsletter preferences of the SWPM user on the Mailjet Website."
+msgstr "d'ajouter et de mettre automatiquement à jour les préférences de Newsletter pour l'utilisateur SWPM sur le site Mailjet."
+
+msgid "Enable this option to be able to edit the other settings below."
+msgstr "Activez cette option afin de pouvoir accéder aux autres réglages ci-dessous."
+
+msgid "Subscription Mode"
+msgstr "Méthode d'Abonnement"
+
+msgid "Invisible and Checked (Force Subscription)"
+msgstr "Invisible et Cochée (Force l'Inscription)"
+
+msgid "Visible and Checked"
+msgstr "Visible et Cochée"
+
+msgid "Visible but Not Checked"
+msgstr "Visible mais Non Cochée"
+
+msgid "Select the Subscription Mode on the Registration Form. Default is 'Visible but Not Checked', meaning that the user will have to check the Newsletter checkbox on the Registration Form if he wants to subscribe."
+msgstr "Selectionnez le type d'Inscription pour le formulaire d'Enregistrement. Par default, la checkbox sera 'Visible mais Non Cochée', ce qui veut dire que l'utilisateur devra cliquer si il souhaite s'abonner."
